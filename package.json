@@ -1,0 +1,18 @@
+{
+  "name": "terminal-temps",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^10.12.3",
+    "tslint": "^5.11.0",
+    "typescript": "^3.1.6"
+  },
+  "scripts": {
+    "build": "tsc",
+    "push": "wt update terminal-temps ./dist/index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
