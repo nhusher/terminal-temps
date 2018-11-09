@@ -13,6 +13,6 @@
     "build": "tsc",
     "push": "wt update terminal-temps ./dist/index.js"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "nicholas husher <nhusher@gmail.com>",
+  "license": "MIT"
 }
