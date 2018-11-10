@@ -90,7 +90,7 @@ async function getLatLngForZipCode(context: any, zipcode: string): Promise<LatLn
  */
 function transformDarkSkyForecast (data: any): Forecast {
   return {
-    alerts: data.alerts.map((a: any) => a.title as string),
+    alerts: data.alerts ? data.alerts.map((a: any) => a.title as string) : [],
     temperature: data.currently.temperature as number,
     feels_like: data.currently.apparentTemperature as number,
     current_summary: data.currently.summary as string,
